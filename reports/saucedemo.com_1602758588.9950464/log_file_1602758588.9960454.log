@@ -1,0 +1,21 @@
+executing tests cases from module: TestDemo
+D:\Python\ui-automation-pytest/reports/saucedemo.com_1602758588.9950464/UI_Report.html
+['D:\\Python\\ui-automation-pytest/tests/', '-rapsx', '-m TestDemo', '--html=D:\\Python\\ui-automation-pytest/reports/saucedemo.com_1602758588.9950464/UI_Report.html', '--self-contained-html', '--conf_file=D:\\Python\\ui-automation-pytest/config/test_ui.cfg', '--op_path=D:\\Python\\ui-automation-pytest/reports/saucedemo.com_1602758588.9950464']
+========================================================================================================= test session starts =========================================================================================================
+platform win32 -- Python 3.7.7, pytest-5.4.2, py-1.8.1, pluggy-0.13.1
+rootdir: D:\Python\ui-automation-pytest
+plugins: pytest_check-0.3.9, cov-2.9.0, dependency-0.5.1, html-2.1.1, metadata-1.9.0
+collected 1 item
+
+..\TestDemo FO Login with valid username password .                                                                                                                                                                              [100%]
+
+========================================================================================================== warnings summary ===========================================================================================================
+D:\Python\ui-automation-pytest\tests\test_demo.py:11
+  D:\Python\ui-automation-pytest\tests\test_demo.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.TestDemo - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
+    @pytest.mark.TestDemo
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--------------------------------------------------------- generated html file: file://D:\Python\ui-automation-pytest\reports\saucedemo.com_1602758588.9950464\UI_Report.html ----------------------------------------------------------
+======================================================================================================= short test summary info =======================================================================================================
+PASSED ..\TestDemo FO Login with valid username password
+==================================================================================================== 1 passed, 1 warning in 9.50s =====================================================================================================
